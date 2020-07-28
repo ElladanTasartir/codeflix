@@ -1,10 +1,11 @@
 import React from 'react';
 import Logo from '../../assets/img/Logo.png';
+import './Menu.css';
 
 const Menu: React.FC = () => {
   return (
     <nav>
-      <img src={Logo} alt="CodeFlix" />
+      <img className="Logo" src={Logo} alt="CodeFlix Logo" />
     </nav>
   );
 };
