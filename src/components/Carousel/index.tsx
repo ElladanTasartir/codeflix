@@ -8,8 +8,8 @@ import {
 import VideoCard from './components/VideoCard';
 
 interface Props {
-  ignoreFirstVideo: any;
-  category: any;
+  ignoreFirstVideo?: any;
+  category?: any;
 }
 
 type Video = {
