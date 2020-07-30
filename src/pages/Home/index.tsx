@@ -1,11 +1,11 @@
 import React from 'react';
-import { Menu } from './components';
-import BannerMain from './components/BannerMain';
-import Carousel from './components/Carousel';
-import Footer from './components/Footer';
-import dadosIniciais from './data/dados_iniciais.json';
+import { Menu } from '../../components';
+import BannerMain from '../../components/BannerMain';
+import Carousel from '../../components/Carousel';
+import Footer from '../../components/Footer';
+import dadosIniciais from '../../data/dados_iniciais.json';
 
-const App: React.FC = () => {
+const Home: React.FC = () => {
   return (
     <div style={{ background: '#141414' }}>
       <Menu />
@@ -35,4 +35,4 @@ const App: React.FC = () => {
   );
 };
 
-export default App;
+export default Home;
