@@ -17,7 +17,7 @@ const Home: React.FC = () => {
       <Carousel ignoreFirstVideo category={dadosIniciais.categorias[0]} />
 
       {dadosIniciais.categorias.map((categoria, index) => {
-        if (index === 0) return <></>;
+        if (index === 0) return null;
         return <Carousel category={categoria} />;
       })}
     </div>
