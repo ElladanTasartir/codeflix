@@ -1,10 +1,15 @@
 import React from 'react';
+import PageDefault from '../../../components/PageDefault';
+import { Link } from 'react-router-dom';
 
 const CadastroVideo: React.FC = () => {
   return (
-    <div>
+    <PageDefault>
       Página de Cadastro de Vídeo
-    </div>
+      <Link to="/cadastro/categoria">
+        Cadastrar Categoria
+      </Link>
+    </PageDefault>
   );
 };
 
